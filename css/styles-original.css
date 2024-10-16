@@ -512,6 +512,8 @@ border-top: none;
 }
 
 .portfolio-overlay-text{
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
@@ -523,7 +525,6 @@ border-top: none;
     height: 100%;
     background-color: #4d5ae5;
     overflow: auto;
-
     transform: translateY(100%);
     transition-property: transform;
     transition-duration: 250ms;
