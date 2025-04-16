@@ -289,7 +289,7 @@ p {
         opacity: 0;
             visibility: hidden;
             pointer-events: none;
-            z-index: 1000;
+            
 }
 .mobile-menu.is-open {
     opacity: 1;
@@ -299,6 +299,15 @@ p {
 
 .mobile-icon-close {
     fill: #200404;
+}
+
+.mobile-menu-close:hover,
+.mobile-menu-close:focus {
+    background-color: #404bbf;
+}
+.mobile-menu-close:hover .modal-close-icone,
+.mobile-menu-close:focus .modal-close-icone {
+    fill: #FFFFFF;
 }
 
 .mobile-menu-contacts {
@@ -351,7 +360,6 @@ p {
     justify-content: flex-start;
     align-items: flex-start;
 }
-
 
 
 .mobile-menu-close {
