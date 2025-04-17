@@ -429,9 +429,9 @@ p {
 }
 /* HERO */
 
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
 
 .intro-section {
     min-width: 320px;
@@ -1245,6 +1245,21 @@ display: inline-flex;
        pointer-events: none;
     
    }
+
+
+   @media screen and (min-width: 428px){
+    .modal-container{
+      min-width: 288px;
+    min-height: 623px; 
+    padding: 72px 16px;
+    }
+    .modal-title{
+
+    }
+    
+   }
+
+
 
 
    .is-open {
