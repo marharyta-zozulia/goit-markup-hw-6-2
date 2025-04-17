@@ -432,8 +432,8 @@ p {
     background-size: cover;
     color: #fff;
     margin: 0 auto;
-    padding-top: 72px;
-        padding-bottom: 72px;
+    padding-top: 112px;
+        padding-bottom: 112px;
 }
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
