@@ -26,8 +26,17 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
 
-ul {
+ol,ul {
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
@@ -45,7 +54,7 @@ button {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    /* padding: 0 15px; */
 }
 
 img {
@@ -420,6 +429,10 @@ p {
 }
 /* HERO */
 
+* {
+    outline: 1px solid red;
+}
+
 .intro-section {
     min-width: 320px;
     background-color: #2e2f42;
@@ -432,8 +445,8 @@ p {
     background-size: cover;
     color: #fff;
     margin: 0 auto;
-    padding-top: 112px;
-        padding-bottom: 112px;
+    padding: 188px 0px;
+    
 }
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
@@ -442,6 +455,7 @@ p {
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/backgroung/Dark-bg\ @1x.jpg);
+    
     }
 }
 
@@ -515,7 +529,7 @@ p {
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
-        padding: 0 15px;
+        /* padding: 0 15px; */
     }
 
     .intro-section {
@@ -545,7 +559,7 @@ p {
 /* FEATURES */
 
 .features-section {
-    padding: 96px 16px;
+    padding: 96px 0px;
 }
 
 .container {
@@ -585,7 +599,7 @@ p {
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 766px;
+        max-width: 768px;
     }
 
     .features-list {
@@ -654,7 +668,7 @@ p {
 .team-section{
 background-color: #F4F4FD;
 width: auto;
-padding: 96px 16px;
+padding: 96px 0px;
 text-align: center;
 }
 .container{
@@ -685,7 +699,7 @@ font-weight: 700;
         border-radius: 0px 0px 4px 4px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
             0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    
+    /* width: 100%; */
 }
 .member-info{
     padding: 32px 0;
@@ -772,7 +786,7 @@ font-weight: 700;
     max-width: 288px;
 }
 .portfolio-section{
-    padding: 96px 16px;
+    padding: 96px 0px;
 }
 
 .portfolio-title{
@@ -858,11 +872,11 @@ font-weight: 700;
 
 @media screen and (min-width: 768px){
     .container {
-        min-width: 786px;
+        min-width: 768px;
     }
 
     .portfolio-section{
-        padding: 96px 16px 86px;
+        padding: 96px 0px ;
     }
    .portfolio-list {
        flex-direction: row;
@@ -944,7 +958,7 @@ font-weight: 700;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 96px 16px;
+    padding: 96px 0px;
 
 }
 .footer-logo-text{
@@ -1068,7 +1082,7 @@ display: flex;
 }
 .footer-form-input::placeholder {
     color: #fff;
-    padding: 8px 0 8px 8px;
+    padding: 8px 0px;
 }
 
 .footer-form-btn{
@@ -1079,7 +1093,7 @@ display: flex;
     border-radius: 4px;
     border: none;
     cursor: pointer;
-    padding: 8px 24px;
+    /* padding: 8px 24px; */
     min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
@@ -1118,7 +1132,7 @@ margin-left: 16px;
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        padding: 97px 108px;
+        padding: 97px px;
         margin: 0 auto;
         gap: 72px 24px;
 }
@@ -1144,6 +1158,7 @@ justify-content: flex-start;
 
 .footer-form{
 min-width: 453px;
+
 }
 
 .footer-part{
@@ -1176,8 +1191,8 @@ display: inline-flex;
     .footer-container {
         display: flex;
         flex-wrap: nowrap;
-        padding-left: 16px;
-        padding-right: 16px;
+        /* padding-left: 16px;
+        padding-right: 16px; */
         gap: 0;
     }
 
