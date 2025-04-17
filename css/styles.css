@@ -947,10 +947,13 @@ font-weight: 700;
 
 .container{
     min-width: 320px;
+    
 }
 
 .footer{
     background-color: #2e2f42;
+    
+    
 }
 
 .footer-container {
@@ -958,7 +961,7 @@ font-weight: 700;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 96px 0px;
+    
 
 }
 .footer-logo-text{
