@@ -464,14 +464,173 @@ p {
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/backgroung/Dark-bg\ @1x.jpg);
-            /* min-height: 112px; */
-            padding: 112px 0;
+            padding: 72px 0;
     
     }
 }
 @media screen and (min-width: 1158px) {
     .intro-section {
         padding: 188px 0;
+    }
+
+}
+
+
+
+.intro-section {
+    min-width: 320px;
+    background-color: #2e2f42;
+    background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/backgroung/Dark-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    margin: 0 auto;
+    padding: 72px 0;
+
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* min-height: 72px; */
+    /* padding: 188px 0px; */
+    
+}
+
+@media screen and (max-width: 768px) and (min-resolution: 192dpi) {
+    .intro-section {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/backgroung/Dark-bg\ @1x.jpg);
+            /* min-height: 112px; */
+            /* padding: 112px 0; */
+    
+    }
+}
+@media screen and (min-width: 1158px) {
+    .intro-section {
+        padding: 188px 0;
+    }
+
+}
+
+
+.intro-title {
+    max-width: 216px;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 72px;
+   
+
+}
+
+
+
+.order-service-button {
+    border-radius: 4px;
+    border: none;
+    padding: 16px 32px;
+    min-width: 169px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4d5ae5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-service-button:hover,
+.order-service-button:focus {
+    background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        
+    }
+
+    .intro-section {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/backgroung/Dark-bg\ @1x.jpg);
+    }
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+        .intro-section {
+            background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/backgroung/background@2x.jpg);
+            
+               
+                
+        }
+    }
+
+    .intro-title {
+        max-width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        /* padding: 0 15px; */
+    }
+
+    .intro-section {
+        max-width: 1440px;
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/backgroung/Dark-bg.jpg);
+            
+    }
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+        .intro-section {
+            background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/backgroung/background@2x.jpg);
+                /* padding: 118px 0; */
+        }
+    }
+
+    .intro-title {
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 48px;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .intro-section {
+        padding: 112px 0;
+       
     }
 }
 
@@ -528,16 +687,16 @@ p {
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/backgroung/Dark-bg\ @1x.jpg);
-        padding: 112px 0;
     }
 
-    @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
         .intro-section {
             background-image: linear-gradient(to bottom,
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
                 url(../images/backgroung/background@2x.jpg);
-                padding: 188px 0;
+               
+                
         }
     }
 
@@ -562,13 +721,13 @@ p {
                 rgba(46, 47, 66, 0.7)),
             url(../images/backgroung/Dark-bg.jpg);
     }
-
-    @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+ @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
         .intro-section {
             background-image: linear-gradient(to bottom,
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
                 url(../images/backgroung/background@2x.jpg);
+                /* padding: 118px 0; */
         }
     }
 
@@ -992,7 +1151,7 @@ font-weight: 700;
 .footer-logo-text{
     width: 288px;
     margin-bottom: 72px;
-    padding: 96px 0;
+    padding-top: 96px;
 
 }
 .footer-logo {
@@ -1154,7 +1313,7 @@ margin-left: 16px;
 
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
 .container{
   max-width: 768px;
 }
@@ -1163,9 +1322,13 @@ margin-left: 16px;
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        padding: 97px 0px;
+    
+    
+    
         margin: 0 auto;
         gap: 72px 24px;
+        padding-left: 108px;
+        
 }
 
 .footer-logo-text{
@@ -1211,12 +1374,18 @@ justify-content: flex-start;
 .footer-form-btn{
 display: inline-flex;
 }
+.social-media {
+    text-align: left;
+    justify-content: flex-start;
+    display: flex;
 }
 
 
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .footer-container {
@@ -1228,6 +1397,7 @@ display: inline-flex;
         padding-right: 16px; */
         gap: 0;
         margin: 0 auto;
+        
         
     }
 
