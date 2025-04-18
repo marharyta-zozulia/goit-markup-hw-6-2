@@ -447,19 +447,34 @@ p {
     background-size: cover;
     color: #fff;
     margin: 0 auto;
-    padding: 188px 0px;
+    padding: 72px 0;
+
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* min-height: 72px; */
+    /* padding: 188px 0px; */
     
 }
 
-@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+@media screen and (max-width: 768px) and (min-resolution: 192dpi) {
     .intro-section {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/backgroung/Dark-bg\ @1x.jpg);
+            /* min-height: 112px; */
+            padding: 112px 0;
     
     }
 }
+@media screen and (min-width: 1158px) {
+    .intro-section {
+        padding: 188px 0;
+    }
+}
+
 
 .intro-title {
     max-width: 216px;
@@ -474,7 +489,11 @@ p {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 72px;
+   
+
 }
+
+
 
 .order-service-button {
     border-radius: 4px;
@@ -509,6 +528,7 @@ p {
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/backgroung/Dark-bg\ @1x.jpg);
+        padding: 112px 0;
     }
 
     @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
@@ -517,6 +537,7 @@ p {
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
                 url(../images/backgroung/background@2x.jpg);
+                padding: 188px 0;
         }
     }
 
@@ -713,6 +734,8 @@ font-weight: 700;
    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
+
 }
 .team-member-role {
     font-weight: 400;
@@ -969,6 +992,7 @@ font-weight: 700;
 .footer-logo-text{
     width: 288px;
     margin-bottom: 72px;
+    padding: 96px 0;
 
 }
 .footer-logo {
@@ -1063,6 +1087,7 @@ display: flex;
     display: flex;
         align-items: center;
         flex-direction: column;
+    margin-bottom: 96px;
 }
 .footer-form-label{
     margin-bottom: 16px;
@@ -1078,6 +1103,7 @@ display: flex;
     height: 40px;
     background-color: transparent;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+   
 
     font-weight: 400;
     font-size: 12px;
