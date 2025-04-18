@@ -122,7 +122,7 @@
                     Effective Solutions
                     for Your Business
                 </h1>
-                <button type="button" class="order-service-button">Order Service</button>
+                <button type="button" class="order-service-button" data-modal-open >Order Service</button>
             </div>
             </section>
             <section class="features-section ">
@@ -609,9 +609,9 @@
 
 
    
-     <div class="backdrop is-open">
+     <div class="backdrop is-open" data-modal>
         <div class="modal modal-container">
-            <button class="modal-close-btn" type="button">
+            <button class="modal-close-btn" type="button" data-modal-close>
                 <svg class="modal-close-icone" width="8" height="8">
                     <use href="./images/symbol-defs1.svg#icon-close-sign"></use>
                 </svg>
@@ -679,6 +679,6 @@
      </div>    
 
 
-
+<script src="./js/modal.js"></script>
 </body>
 </html>
